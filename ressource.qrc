@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>image/ba21467844cab42d21077948ec59ff5bed620534-1920x1080.webp</file>
+        <file>image/devenir-pharmacien-921x1024.png</file>
+        <file>image/OIP (1).jpeg</file>
+        <file>image/young-woman-pharmacist-at-pharmacy-scaled.jpg</file>
+        <file>image/R.png</file>
+        <file>image/OIP (3).jpeg</file>
+        <file>image/R (1).png</file>
+        <file>image/47-479101_pharmacy-symbol-hd-png-download.png</file>
+        <file>image/istockphoto-1284314511-170667a.jpg</file>
+        <file>image/42453.png</file>
+        <file>image/WhatsApp Image 2024-04-30 à 20.55.44_6b270705.jpg</file>
+        <file>image/invoice-vector-icon.jpg</file>
+        <file>image/垃圾桶或垃圾箱标志象或商标-137649854.webp</file>
+        <file>image/png-transparent-computer-font-computer-icons-font-others-miscellaneous-cdr-text.png</file>
+        <file>image/signature.png</file>
+        <file>image/stamp (1).jpg</file>
+        <file>image/stamp.jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>image/happy-smiling-pharmacist-in-drugstore-300x200.jpg</file>
+        <file>image/ba21467844cab42d21077948ec59ff5bed620534-1920x1080.webp</file>
+        <file>image/pharmacien.jpg</file>
+        <file>image/R.jpeg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

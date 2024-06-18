@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>téléchargement.png</file>
+        <file>Comment-ouvrir-sa-pharmacie.webp</file>
+        <file>ress.qrc</file>
+    </qresource>
+</RCC>

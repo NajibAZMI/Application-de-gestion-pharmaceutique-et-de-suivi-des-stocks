@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/ress">
+        <file>image/OIP.jpeg</file>
+        <file>image/ba21467844cab42d21077948ec59ff5bed620534-1920x1080.webp</file>
+        <file>image/OIP (1).jpeg</file>
+        <file>image/young-woman-pharmacist-at-pharmacy-scaled.jpg</file>
+        <file>image/happy-smiling-pharmacist-in-drugstore-300x200.jpg</file>
+    </qresource>
+</RCC>

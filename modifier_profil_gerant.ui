@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modifier_profil_gerant</class>
+ <widget class="QDialog" name="modifier_profil_gerant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>321</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);font-size:20px;
+font: 20pt &quot;Segoe Script&quot;;border:2px solid black;
+color: rgb(12, 255, 125);</string>
+   </property>
+   <property name="text">
+    <string>PHARMACIE</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>16</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Valider_modifier_gerant">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>570</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 800 16pt &quot;Rockwell Extra Bold&quot;;
+background-color: rgb(96, 156, 18);;color:white;border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>0</y>
+     <width>20</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonProfil">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:15px;border:2px solid black;
+background-color: rgb(204, 204, 204);</string>
+   </property>
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gerer_rupture_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>540</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 204, 204);font-size:15px;border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Statistiques</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_date">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>30</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid blue;border-radius:4px;
+font: 14pt &quot;Rockwell&quot;;
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>61</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/res/image/devenir-pharmacien-921x1024.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gerer_stock">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>310</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 204, 204);font-size:15px;border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Gérer le stock</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>510</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>951</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nome_user">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>50</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+font: 900 14pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gerer_fournisseur">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 204, 204);font-size:15px;border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Gérer Les fournisseurs</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>-10</y>
+     <width>16</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>61</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/res/image/WhatsApp Image 2024-04-30 à 20.55.44_6b270705.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>20</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/res/image/OIP (3).jpeg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>10</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressource.qrc">:/res/image/R (1).png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gerer_rupture">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>460</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 204, 204);font-size:15px;border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Gérer Les ruptures</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_gere_vente">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(204, 204, 204);;font-size:15px;border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Gérer les ventes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_quitter">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>10</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid black;color:white;border-radius:10px;
+font: 900 12pt &quot;Arial Black&quot;;
+background-color: rgb(255, 114, 116);</string>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);font-size:15px;
+font: 600 16pt &quot;Segoe UI Variable Text Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Dr.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_accueilgerat">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>100</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 204, 204);font-size:15px;border:2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Accueil</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>120</y>
+     <width>801</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid #27ffe6; border-radius:10px;
+color: rgb(39, 255, 230);
+background-color: rgb(248, 248, 248);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>50</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid #27ffe6;border-radius:14px;
+color: rgb(30, 255, 105);
+background-color: rgb(61, 61, 61);
+font: 20pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Modifier Votre profil</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>111</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="ressource.qrc">:/res/image/R.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_nom_gerant">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>160</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);border:2px solid #27ffe6;border-radius:14px;
+font: 18pt &quot;Segoe Fluent Icons&quot;; 
+color: rgb(12, 12, 12);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_prenom_gerant">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);border:2px solid #27ffe6;border-radius:14px;font: 18pt &quot;Segoe Fluent Icons&quot;;color: rgb(12, 12, 12);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_email_gerant">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>340</y>
+      <width>321</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);border:2px solid #27ffe6;border-radius:14px;font: 18pt &quot;Segoe Fluent Icons&quot;;color: rgb(12, 12, 12);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_numero_gerant">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>160</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);border:2px solid #27ffe6;border-radius:14px;font: 18pt &quot;Segoe Fluent Icons&quot;;color: rgb(12, 12, 12);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_identifiant_gerant">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>250</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);border:2px solid #27ffe6;border-radius:14px;font: 18pt &quot;Segoe Fluent Icons&quot;;color: rgb(12, 12, 12);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 18pt &quot;Arial&quot;;
+background-color: rgb(41, 255, 159);
+border-radius:10px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> Identifiant</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>340</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 18pt &quot;Arial&quot;;
+background-color: rgb(41, 255, 159);
+border-radius:10px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>    Email</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 18pt &quot;Arial&quot;;
+background-color: rgb(41, 255, 159);
+border-radius:10px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>     Nom</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>250</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 18pt &quot;Arial&quot;;
+background-color: rgb(41, 255, 159);
+border-radius:10px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>   Prenom</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>160</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 18pt &quot;Arial&quot;;
+background-color: rgb(41, 255, 159);
+border-radius:10px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>   Numero</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_precedent_profil">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>570</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 800 16pt &quot;Rockwell Extra Bold&quot;;
+color:white;border-radius:10px;
+background-color: rgb(60, 193, 255);</string>
+   </property>
+   <property name="text">
+    <string>précédent</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label_2</zorder>
+  <zorder>line_3</zorder>
+  <zorder>Valider_modifier_gerant</zorder>
+  <zorder>line_4</zorder>
+  <zorder>ButtonProfil</zorder>
+  <zorder>pushButton_gerer_rupture_2</zorder>
+  <zorder>label_date</zorder>
+  <zorder>label_8</zorder>
+  <zorder>pushButton_gerer_stock</zorder>
+  <zorder>label</zorder>
+  <zorder>nome_user</zorder>
+  <zorder>pushButton_gerer_fournisseur</zorder>
+  <zorder>line</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_7</zorder>
+  <zorder>pushButton_gerer_rupture</zorder>
+  <zorder>pushButton_gere_vente</zorder>
+  <zorder>pushButton_quitter</zorder>
+  <zorder>label_6</zorder>
+  <zorder>pushButton_accueilgerat</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>pushButton_precedent_profil</zorder>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
